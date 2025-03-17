@@ -2,6 +2,9 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 
+import matplotlib
+matplotlib.use("TkAgg")
+
 x_curve = None
 y_curve = None
 total_size = 0.0
